@@ -9,8 +9,4 @@
 packer build -var-file=variables.json template.json | tee output/packer_output.txt
 ```
 
-#### Additionally, to get packer ami id in tfvar file:
-
-```bash
-run build_ami.sh
-```
+Additionally, run `build_ami.sh` to outpur packer ami id in a tfvars file. Which can be feeded to terraform.
