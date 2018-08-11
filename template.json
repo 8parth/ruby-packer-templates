@@ -24,7 +24,7 @@
   "provisioners": [
     {
       "type": "shell",
-      "script": "./setup.sh",
+      "script": "scripts/setup.sh",
       "environment_vars": [
         "EMAIL={{user `email`}}",
         "NAME={{user `name`}}",

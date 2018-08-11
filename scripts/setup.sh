@@ -1,7 +1,5 @@
 sleep 30
 
-# name="ubuntu"
-# email="change@me.com"
 HOME="/home/ubuntu"
 echo "NAME: $NAME"
 echo "EMAIL: $EMAIL"
