@@ -7,7 +7,7 @@ echo "NAME: $NAME"
 echo "EMAIL: $EMAIL"
 echo "RUBY VERSION: $RUBY_VERSION"
 sudo apt-get update -y
-# sudo apt-get upgrade -y
+sudo apt-get upgrade -y
 
 # install base packages
 sudo apt-get install -y libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev build-essential libpq-dev zlib1g-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libyaml-dev curl libxml2 libxslt1-dev
